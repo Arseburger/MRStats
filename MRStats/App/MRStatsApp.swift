@@ -1,14 +1,15 @@
-
 import SwiftUI
 
 @main
 struct MRStatsApp: App {
-    let persistenceController = PersistenceController.shared
-
+    
+    let bannerManager: BannerManager = DI.shared.bannerManager
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            MainView()
+                .preferredColorScheme(.dark)
+                .environmentObject(bannerManager)
         }
     }
 }

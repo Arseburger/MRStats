@@ -1,0 +1,20 @@
+{
+    "id": 1101,
+    "name": "Hall of Djalia",
+    "full_name": "Hall of Djalia - Intergalactic Empire of Wakanda",
+    "location": "Intergalactic Empire of Wakanda",
+    "game_mode": "Convergence",
+    "description": "Ну это типа такая мапа прикольная. \nНо я рот ее ебал, на самом деле. Хотя я даже до конца не понимаю, че это конкретно за карта такая. То ли телега, то ли точка. Я хуй его. Я по-вашему не понимаю. Кто этот ваш конверженс.",
+    "is_competitve": false,
+    "sub_map": {
+        "id": 1035,
+        "name": null,
+        "thumbnail": null
+    },
+    "video": "https://youtu.be/dz_778SYulo",
+    "images": [
+        "/rivals/maps/map_1101.png",
+        "/rivals/maps/medium/map_1101.png",
+        "/rivals/maps/large/map_1101.png"
+    ]
+}
